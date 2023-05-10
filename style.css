@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: system-ui ;
+}
+
+.crud {
+    width: 80%;
+    margin:auto;
+}
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #111;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+    text-transform: capitalize;
+}
+input:focus{
+    background-color: #000;
+    transform: scale(1.1);
+}
+
+.price input{
+    width: 20%;
+}
+
+#total{
+    background-color: #d37306;
+    padding: 5px 2px;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#total::before{
+    content: "Total: ";
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #0a4674;
+    border-radius: 20px;
+    color: #fff;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: #0b61a3;
+    letter-spacing: 1px;
+}
+
+.btn-searsh
+{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-searsh button{
+
+    width: 45%;
+}
+
+#deleteAll{
+
+    margin: 20px 0;
+}
+table{
+
+    width: 100%;
+    text-align: center;
+
+}
+table th {
+    text-transform: uppercase;
+}
+th ,td {
+    padding: 5px;
+}
+
+/* 
+@media (max-width: 815px ){
+
+    .price{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+
+    .price input{
+        width: 45%;
+        }
+    .price small{
+        width: 45%; 
+        
+    }
+    #total{
+        margin-left: 0;
+
+    }
+    .crud {
+        width: 150%;
+        
+    } */
+
+
+
+
+
+
+
+
+
+
+
